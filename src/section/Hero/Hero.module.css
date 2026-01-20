@@ -1,0 +1,13 @@
+main {
+  background: url("../../assets/images/newHero.png");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+@media (min-width: 488px) {
+  main {
+    background-position: left;
+  }
+}
