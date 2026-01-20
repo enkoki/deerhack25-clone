@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: 240px 240px 240px;
+  grid-template-areas: 
+    "grand track swags"
+    "grand track swags"
+    "grand gifts gifts";
+  gap: 20px;
+  justify-content: center; 
+}
+
+@media (max-width: 1020px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 800px 500px 500px 500px;
+    grid-template-areas:
+      "grand"
+      "track"
+      "swags"
+      "gifts";
+  }
+}
