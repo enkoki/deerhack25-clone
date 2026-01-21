@@ -10,7 +10,7 @@ function Prizes() {
 
   const clipValue = "bg-linear-to-r from-primary to-accent text-transparent bg-clip-text inline-block";
   return (
-    <div className="bg-[#110C24] p-10 w-screen flex flex-col items-center pt-8 xl:pt-[100px] md:scale-70 lg:scale-80 xl:scale-90 2xl:scale-100">
+    <div className="bg-[#110C24] p-10 w-screen flex flex-col items-center pt-8 xl:pt-[50px] lg:scale-80 xl:scale-90 2xl:scale-100">
       <h1 className="text-6xl font-bold bg-linear-to-r from-primary to-accent bg-clip-text text-transparent inline-block mb-6">
         Prizes
       </h1>

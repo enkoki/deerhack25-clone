@@ -14,7 +14,7 @@ function About(){
                 About The Event
             </h1>
             <LeafRight/>
-            <div className='flex flex-col lg:flex-row gap-30 justify-center items-center mt-[30px]'>
+            <div className='2xl:scale-100 xl:scale-95 lg:scale-90 scale-95 flex flex-col lg:flex-row gap-30 justify-center items-center mt-[30px]'>
                 <AboutCard icon={cardIcon2} title="Deerwalk Institute of Technology" desc = {dwit}/>
                 <AboutCard icon={cardIcon1} title="DeerHack 2025" desc = {deerhack}/>
             </div>
