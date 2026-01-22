@@ -1,4 +1,6 @@
 import BenefitsCard from "../../components/BenefitsCard/BenefitsCard";
+import LeafRight from "../../assets/images/LeafRight";
+import ThickLeaf from "../../assets/images/ThickLeaf";
 
 import network from '../../assets/images/NewNetworks.svg'
 import idea from '../../assets/images/NewSupportIdea.svg'
@@ -14,12 +16,14 @@ function Benefits(){
     const grad1 = "bg-linear-to-r from-[#261B50] to-[#161030] "
     const grad2 = "bg-linear-to-l from-[#261B50] to-[#161030] "
     return(
-        <div className="flex justify-center items-center w-screen p-10">
+        <div className="flex justify-center items-center w-screen p-10 relative">
+            <LeafRight position="right-0 bottom-[50%]"/>
+            <ThickLeaf position="left-0 top-[50%] scale-x-[-1]"/>
             <div className="flex flex-col justify-center items-center p-5 w-full mx-10">
                 <h1 className=" text-[25px] md:text-[30px] lg:text-[50px] font-bold bg-linear-to-r from-primary to-accent bg-clip-text text-transparent inline-block mb-8">Benefits of Participating</h1>
                 <div className="flex flex-col items-center justify-center gap-5">
                     <div className="flex gap-5 flex-col xl:flex-row">
-                        <BenefitsCard title="Build Powerful Network" desc={card1} gradient={grad1} blend={network} count={1}/>
+                        <BenefitsCard title="Build Powerful Network" desc={card1} gradient={grad1} blend={network} opacity={30} count={1}/>
                         <BenefitsCard title="Support for Your Ideas" desc={card2} gradient={grad2} blend={idea} opacity={60} count={2}/>
                     </div>
                     <div className="flex gap-5 flex-col xl:flex-row">

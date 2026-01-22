@@ -47,7 +47,7 @@ function Prizes() {
         <Card 
           desc="Swags and freebies" 
           name="swags"
-          dir="flex-col"
+          dir="flex-reverse-col"
           alignment="justify-between items-center"
           clipping={clipValue}
           size="text-[35px] text-center"

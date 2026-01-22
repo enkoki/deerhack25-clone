@@ -13,7 +13,7 @@ function About(){
             <h1 className="text-[30px] lg:text-[50px] font-bold bg-linear-to-r from-primary to-accent bg-clip-text text-transparent inline-block mb-6">
                 About The Event
             </h1>
-            <LeafRight/>
+            <LeafRight position="left-0 top-[50%] scale-x-[-1]"/>
             <div className='2xl:scale-100 xl:scale-95 lg:scale-90 scale-95 flex flex-col lg:flex-row gap-30 justify-center items-center mt-[30px]'>
                 <AboutCard icon={cardIcon2} title="Deerwalk Institute of Technology" desc = {dwit}/>
                 <AboutCard icon={cardIcon1} title="DeerHack 2025" desc = {deerhack}/>
